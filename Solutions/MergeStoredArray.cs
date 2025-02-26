@@ -5,9 +5,9 @@
         private static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
 
-            int pointer1 = m - 1;                   // Pointer for nums1 (valid elements)
-            int pointer2 = n - 1;                   // Pointer for nums2
-            int placementPointer = m + n - 1;       // Pointer for placement in nums1
+            int pointer1 = m - 1;                   // Pointer for last index for nums1 (valid elements)
+            int pointer2 = n - 1;                   // Pointer for last index for nums2
+            int placementPointer = m + n - 1;       // Pointer for placement in nums1 from the end
 
             // Merge from the back
             while (pointer1 >= 0 && pointer2 >= 0)
