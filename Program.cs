@@ -7,8 +7,9 @@
             // Dictionary mapping menu choices to solution methods
             var solutionsMenu = new Dictionary<string, Action>
             {
-                { "1. Best Time to Buy and Sell Stock", BestTimeToBuyAndSellStock.RunBestTimeToBuyAndSellStock },
-                { "2. Merge Stored Array", MergeStoredArray.RunMergeStoredArray }
+                { "121. Best Time to Buy and Sell Stock", BestTimeToBuyAndSellStock.RunBestTimeToBuyAndSellStock },
+                { "88. Merge Stored Array", MergeStoredArray.RunMergeStoredArray },
+                { "26. RemoveDuplicatesFromSortedArray", RemoveDuplicatesFromSortedArray.RunRemoveDuplicatesFromSortedArray }
 
                 // Add more problems as needed...
             };

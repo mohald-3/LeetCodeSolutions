@@ -57,20 +57,20 @@
 
 
             AnsiConsole.MarkupLine("[bold]Test Case 1:[/]");
-            AnsiConsole.MarkupLine($"  num1 result: [yellow]{string.Join(", ", case1num1)}[/]");
-            AnsiConsole.MarkupLine($"  num2 result: [yellow]{string.Join(", ", case1num2)}[/]");
+            AnsiConsole.MarkupLine($"  num1: [yellow]{string.Join(", ", case1num1)}[/]");
+            AnsiConsole.MarkupLine($"  num2: [yellow]{string.Join(", ", case1num2)}[/]");
             Merge(case1num1, case1m, case1num2, case1n);
             AnsiConsole.MarkupLine($"  Merge result: [blue]{string.Join(", ", case1num1)}[/]");
 
             AnsiConsole.MarkupLine("[bold]Test Case 2:[/]");
-            AnsiConsole.MarkupLine($"  Merge result: [yellow]{string.Join(", ", case2num1)}[/]");
-            AnsiConsole.MarkupLine($"  Merge result: [yellow]{string.Join(", ", case2num2)}[/]");
+            AnsiConsole.MarkupLine($"  num1: [yellow]{string.Join(", ", case2num1)}[/]");
+            AnsiConsole.MarkupLine($"  num2: [yellow]{string.Join(", ", case2num2)}[/]");
             Merge(case2num1, case2m, case2num2, case2n);
             AnsiConsole.MarkupLine($"  Merge result: [blue]{string.Join(", ", case2num1)}[/]");
 
             AnsiConsole.MarkupLine("[bold]Test Case 3:[/]");
-            AnsiConsole.MarkupLine($"  Merge result: [yellow]{string.Join(", ", case3num1)}[/]");
-            AnsiConsole.MarkupLine($"  Merge result: [yellow]{string.Join(", ", case3num2)}[/]");
+            AnsiConsole.MarkupLine($"  num1: [yellow]{string.Join(", ", case3num1)}[/]");
+            AnsiConsole.MarkupLine($"  num2: [yellow]{string.Join(", ", case3num2)}[/]");
             Merge(case3num1, case3m, case3num2, case3n);
             AnsiConsole.MarkupLine($"  Merge result: [blue]{string.Join(", ", case3num1)}[/]");
 
