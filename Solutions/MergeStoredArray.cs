@@ -4,7 +4,7 @@
     {
         private static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
-
+            if (n == 0) return; 
             int pointer1 = m - 1;                   // Pointer for last index for nums1 (valid elements)
             int pointer2 = n - 1;                   // Pointer for last index for nums2
             int placementPointer = m + n - 1;       // Pointer for placement in nums1 from the end
